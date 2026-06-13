@@ -1,0 +1,12 @@
+After taking second derivative of the J(theta) cost function
+The Heissan is XTDX
+where D is the diagonal matrix of h_i(1 - h_i)
+
+Gradient (First Derivative):
+summation all for m samples:
+    (h_i - y_i) * x_i
+
+matrix form:
+    XT(y-h)
+
+
